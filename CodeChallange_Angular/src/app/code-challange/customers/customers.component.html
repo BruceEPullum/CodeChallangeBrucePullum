@@ -1,0 +1,30 @@
+<div>
+    <h1>Customer List</h1>
+    <button routerLink="add-record">Add New</button>
+    <table>
+      <thead>
+        <tr>
+          <th (click)="sort('id')">ID</th>
+          <th (click)="sort('firstname')">First</th>
+          <th (click)="sort('lastname')">Last</th>
+          <th (click)="sort('email')">Email</th>
+          <th (click)="sort('createddate')">Created</th>
+          <th (click)="sort('lastupdated')">Modified</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let customer of customers | sort:sortBy:sortOrder">
+          <td>{{ customer.id }}</td>
+          <td>{{ customer.firstname }}</td>
+          <td>{{ customer.lastname }}</td>
+          <td>{{ customer.email }}</td>
+          <td>{{ customer.createddate }}</td>
+          <td>{{ customer.lastmodified }}</td>
+          <td><button (click)="editCustomer(customer)">Edit</button>
+            <button (click)="deleteCustomer(customer)">Delete</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{46FFE116-B507-4B37-93E7-12DF1A7C7843}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/ScheduleController.cs">
+    <Files>
+      <File FileName="Interfaces/IHelperService.cs" />
+      <File FileName="Services/HelperService.cs" />
+      <File FileName="Controllers/ScheduleController.cs" Line="37" Column="14" />
+      <File FileName="Services/EmailService.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ExportScheduleWebAPI" expanded="True">
+            <Node name="ExportScheduleWebAPI" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ExportScheduleWebAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

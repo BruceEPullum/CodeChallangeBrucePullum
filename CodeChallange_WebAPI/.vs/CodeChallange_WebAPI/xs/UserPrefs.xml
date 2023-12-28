@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{46FFE116-B507-4B37-93E7-12DF1A7C7843}|ExportScheduleWebAPI">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/superman/CODE/CodeChallange/CodeChallange_WebAPI/Services/CustomerService.cs" relfile="Services/CustomerService.cs" line="65" column="1" />
+      <Breakpoint file="/Users/superman/CODE/CodeChallange/CodeChallange_WebAPI/Services/CustomerService.cs" relfile="Services/CustomerService.cs" line="38" column="1" />
+      <Breakpoint file="/Users/superman/CODE/CodeChallange/CodeChallange_WebAPI/Services/CustomerService.cs" relfile="Services/CustomerService.cs" line="16" column="1" />
+      <Breakpoint file="/Users/superman/CODE/CodeChallange/CodeChallange_WebAPI/Controllers/CustomerConotroller.cs" relfile="Controllers/CustomerConotroller.cs" line="36" column="1" />
+      <Breakpoint file="/Users/superman/CODE/CodeChallange/CodeChallange_WebAPI/Controllers/CustomerConotroller.cs" relfile="Controllers/CustomerConotroller.cs" line="44" column="1" />
+      <Breakpoint file="/Users/superman/CODE/CodeChallange/CodeChallange_WebAPI/Controllers/CustomerConotroller.cs" relfile="Controllers/CustomerConotroller.cs" line="52" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/CustomerConotroller.cs">
+    <Files>
+      <File FileName="Services/CustomerService.cs" Line="52" Column="1" />
+      <File FileName="Controllers/CustomerConotroller.cs" Line="48" Column="1" />
+      <File FileName="Interfaces/ICustomerService.cs" Line="12" Column="2" />
+      <File FileName="Services/DBService.cs" Line="24" Column="27" />
+      <File FileName="Startup.cs" Line="61" Column="1" />
+      <File FileName="appsettings.json" Line="12" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CodeChallange_WebAPI" expanded="True">
+            <Node name="CodeChallange_WebAPI" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="CustomerConotroller.cs" selected="True" />
+              </Node>
+              <Node name="DataModels" expanded="True" />
+              <Node name="Interfaces" expanded="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.CodeChallange__WebAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

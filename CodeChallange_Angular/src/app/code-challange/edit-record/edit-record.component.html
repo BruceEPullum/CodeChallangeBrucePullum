@@ -1,0 +1,19 @@
+<h2>Edit Customer</h2>
+<form [formGroup]="recordForm" (ngSubmit)="onSubmit()">
+    <hr>
+  <label for="firstName">First Name</label>
+  <input id="firstName" type="text" formControlName="firstName" required>
+
+  <label for="lastName">Last Name</label>
+  <input id="lastName" type="text" formControlName="lastName" required>
+
+  <label for="email">Email</label>
+  <input id="email" type="email" formControlName="email" required>
+<hr>
+  <div>
+    <button type="submit" [disabled]="recordForm.invalid">Save</button>
+    &nbsp;    &nbsp;
+    <button type="button" routerLink="/customers">Cancel</button>
+  </div>
+</form>
+

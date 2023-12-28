@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/CodeChallange_WebAPI.props" />
+</Project>
